@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AADB2C.Web", "AADB2C.Web\AADB2C.Web.csproj", "{1BECA5C8-3C42-402C-BFA6-68B11E0D301C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AADB2C.Web", "AADB2C.Web\AADB2C.Web.csproj", "{1BECA5C8-3C42-402C-BFA6-68B11E0D301C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AADB2C.API", "AADB2C.API\AADB2C.API.csproj", "{48EAC2E6-3C17-4ADE-A248-5734382B6434}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AADB2C.API", "AADB2C.API\AADB2C.API.csproj", "{48EAC2E6-3C17-4ADE-A248-5734382B6434}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AADB2C.WebJQuery", "AADB2C.WebJQuery\AADB2C.WebJQuery.csproj", "{5693C280-DE36-4976-B9D7-1843ED6B6FF9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{48EAC2E6-3C17-4ADE-A248-5734382B6434}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48EAC2E6-3C17-4ADE-A248-5734382B6434}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48EAC2E6-3C17-4ADE-A248-5734382B6434}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5693C280-DE36-4976-B9D7-1843ED6B6FF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5693C280-DE36-4976-B9D7-1843ED6B6FF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5693C280-DE36-4976-B9D7-1843ED6B6FF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5693C280-DE36-4976-B9D7-1843ED6B6FF9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

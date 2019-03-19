@@ -14,6 +14,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using System;
 using System.Diagnostics;
 using System.Threading.Tasks;
 
@@ -31,6 +32,19 @@ namespace AADB2C.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            // Add CORS support
+            services.AddCors(options =>
+            {
+                options.AddPolicy("AllowAll", builder =>
+                    {
+                        builder.AllowAnyOrigin()
+                        .SetPreflightMaxAge(TimeSpan.FromMinutes(666))
+                        .AllowAnyHeader()
+                        .AllowAnyMethod()
+                        .AllowCredentials();
+                    });
+            });
+
             // Add the JwtBearer authentication middleware and populate its values from the 
             // AzureADB2C section of the configuration file
             services.AddAuthentication(options =>
@@ -90,6 +104,7 @@ namespace AADB2C.API
             }
 
             app.UseHttpsRedirection();
+            app.UseCors("AllowAll"); // Enable CORS for all requests
             app.UseAuthentication();
             app.UseMvc();
         }

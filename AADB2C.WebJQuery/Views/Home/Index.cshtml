@@ -1,0 +1,42 @@
+﻿<!--
+//===============================================================================
+// Microsoft FastTrack for Azure
+// Azure Active Directory B2C Authentication Samples
+//===============================================================================
+// Copyright © Microsoft Corporation.  All rights reserved.
+// THIS CODE AND INFORMATION IS PROVIDED "AS IS" WITHOUT WARRANTY
+// OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING BUT NOT
+// LIMITED TO THE IMPLIED WARRANTIES OF MERCHANTABILITY AND
+// FITNESS FOR A PARTICULAR PURPOSE.
+//===============================================================================
+-->
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center" id="divIndex">
+    <h3>Welcome to the Azure AD B2C Sample Application</h3>
+    <input type="button" id="btnCallAPI" class="btn btn-lg btn-primary" value="Call API" />
+</div>
+
+<div id="divCallAPI" style="display:none">
+    <h2>Call API</h2>
+
+    <h3>API Values</h3>
+    <ul id="ulValues"></ul>
+</div>
+
+<div id="divPrivacy" style="display:none">
+    <h1>Privacy Policy</h1>
+
+    <p>Use this page to detail your site's privacy policy.</p>
+</div>
+
+@section Scripts {
+    <script type="text/javascript">
+        // On document ready initialize the JavaScript functionality for the page
+        $(document).ready(function () {
+            AADB2C.WebJQuery.initIndex('@ViewBag.ClientId', '@ViewBag.Authority', '@ViewBag.ApiScopes', '@ViewBag.ApiUrl');
+        });
+    </script>
+}
