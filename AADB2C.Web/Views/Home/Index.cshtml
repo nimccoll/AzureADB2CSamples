@@ -17,4 +17,28 @@
 <div class="text-center">
     <h3>Welcome to the Azure AD B2C Sample Application</h3>
     <a asp-controller="Home" asp-action="CallAPI" class="btn btn-lg btn-primary">Call API</a>
+    &nbsp;
+    <a asp-controller="Home" asp-action="CallFunction" class="btn btn-lg btn-primary">Call Function</a>
 </div>
+
+@if (ViewBag.Claims != null)
+{
+    <div>
+        <table class="table table-striped table-bordered">
+            <tr>
+                <th>Claim Type</th>
+                <th>Claim Value</th>
+            </tr>
+            @foreach (System.Security.Claims.Claim claim in ViewBag.Claims)
+            {
+                <tr>
+                    <td>@claim.Type</td>
+                    <td>@claim.Value</td>
+                </tr>
+            }
+        </table>
+    </div>
+    <div class="text-center">
+        <a href="https://secure8.convio.net/jdrf3itc/site/EstablishSession;jsessionid==@ViewBag.RoutingId?NONCE_TOKEN=@ViewBag.Nonce&NEXTURL=https://stagingjdrf.wpengine.com/">Redirect to JDRF</a>
+    </div>
+}

@@ -18,6 +18,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Identity.Client;
 using Newtonsoft.Json;
 using System;
+using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Net.Http;
@@ -44,6 +45,18 @@ namespace AADB2C.Web.Controllers
 
         public IActionResult Index()
         {
+            List<Claim> claims = new List<Claim>();
+            if (User.Identity.IsAuthenticated)
+            {
+                foreach (Claim claim in User.Claims)
+                {
+                    claims.Add(claim);
+                    if (claim.Type == "extension_jdrfRoutingId") ViewBag.RoutingId = claim.Value;
+                    if (claim.Type == "extension_jdrfNonce") ViewBag.Nonce = claim.Value;
+                }
+                ViewBag.Claims = claims;
+            }
+
             return View();
         }
 
@@ -71,6 +84,42 @@ namespace AADB2C.Web.Controllers
 
                 // Call the WebAPI
                 HttpResponseMessage apiResult = _client.GetAsync(_configuration.GetValue<string>("AzureADB2C:ApiUrl")).Result;
+
+                if (apiResult.IsSuccessStatusCode)
+                {
+                    // Convert the response to an array of strings and add it to the ViewBag for display
+                    string[] values = JsonConvert.DeserializeObject<string[]>(apiResult.Content.ReadAsStringAsync().Result);
+                    ViewBag.Values = values;
+                }
+            }
+
+            return View();
+        }
+
+        /// <summary>
+        /// Calls a simple WebAPI that returns an array of string values. This method requires an authenticated
+        /// user.
+        /// </summary>
+        /// <returns><see cref="Microsoft.AspNetCore.Mvc.IActionResult"/> A view that displays the values returned by the API.</returns>
+        [Authorize]
+        public IActionResult CallFunction()
+        {
+            // Retrieve an access token for the WebAPI
+            string accessToken = GetAPIAccessToken().Result;
+            if (string.IsNullOrEmpty(accessToken))
+            {
+                // If an empty access token is returned, the user must sign in again because their session has
+                // expired. Redirect back to this method to force another sign in.
+                return RedirectToAction("CallFunction");
+            }
+            else
+            {
+                // Add a "Bearer" authentication header value that includes the access token for the API
+                // to the Authorization header of the HTTP request to the WebAPI.
+                _client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", accessToken);
+
+                // Call the WebAPI
+                HttpResponseMessage apiResult = _client.GetAsync(_configuration.GetValue<string>("AzureADB2C:FunctionUrl")).Result;
 
                 if (apiResult.IsSuccessStatusCode)
                 {

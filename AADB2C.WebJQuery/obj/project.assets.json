@@ -12074,23 +12074,26 @@
   },
   "packageFolders": {
     "C:\\Users\\nimccoll\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Data\\Source\\Workspaces\\Sample Code\\AzureADB2CSamples-MSAL\\AADB2C.WebJQuery\\AADB2C.WebJQuery.csproj",
+      "projectUniqueName": "C:\\Data\\Source\\Repos\\AzureADB2CSamples\\AADB2C.WebJQuery\\AADB2C.WebJQuery.csproj",
       "projectName": "AADB2C.WebJQuery",
-      "projectPath": "C:\\Data\\Source\\Workspaces\\Sample Code\\AzureADB2CSamples-MSAL\\AADB2C.WebJQuery\\AADB2C.WebJQuery.csproj",
+      "projectPath": "C:\\Data\\Source\\Repos\\AzureADB2CSamples\\AADB2C.WebJQuery\\AADB2C.WebJQuery.csproj",
       "packagesPath": "C:\\Users\\nimccoll\\.nuget\\packages\\",
-      "outputPath": "C:\\Data\\Source\\Workspaces\\Sample Code\\AzureADB2CSamples-MSAL\\AADB2C.WebJQuery\\obj\\",
+      "outputPath": "C:\\Data\\Source\\Repos\\AzureADB2CSamples\\AADB2C.WebJQuery\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
         "C:\\Users\\nimccoll\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.2"
@@ -12133,10 +12136,16 @@
           }
         },
         "imports": [
-          "net461"
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
