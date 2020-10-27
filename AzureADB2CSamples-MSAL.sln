@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AADB2C.Functions", "AADB2C.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AADB2C.WebAngular", "AADB2C.WebAngular\AADB2C.WebAngular.csproj", "{CA2DF617-73F8-4793-BCD9-33A9E3FA76C7}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AADB2C.WebAngular2", "AADB2C.WebAngular2\AADB2C.WebAngular2.csproj", "{239EFBAE-CD64-4B0C-8483-34858BDAA5C0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{CA2DF617-73F8-4793-BCD9-33A9E3FA76C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA2DF617-73F8-4793-BCD9-33A9E3FA76C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA2DF617-73F8-4793-BCD9-33A9E3FA76C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{239EFBAE-CD64-4B0C-8483-34858BDAA5C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{239EFBAE-CD64-4B0C-8483-34858BDAA5C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{239EFBAE-CD64-4B0C-8483-34858BDAA5C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{239EFBAE-CD64-4B0C-8483-34858BDAA5C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
