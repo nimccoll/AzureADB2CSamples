@@ -12,3 +12,20 @@ C:\Data\Source\Workspaces\Sample Code\AzureADB2CSamples-MSAL\AADB2C.API\obj\Debu
 C:\Data\Source\Workspaces\Sample Code\AzureADB2CSamples-MSAL\AADB2C.API\obj\Debug\netcoreapp2.2\AADB2C.API.dll
 C:\Data\Source\Workspaces\Sample Code\AzureADB2CSamples-MSAL\AADB2C.API\obj\Debug\netcoreapp2.2\AADB2C.API.pdb
 C:\Data\Source\Workspaces\Sample Code\AzureADB2CSamples-MSAL\AADB2C.API\obj\Debug\netcoreapp2.2\AADB2C.API.csprojAssemblyReference.cache
+C:\Data\Source\Repos\AzureADB2CSamples\AADB2C.API\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Data\Source\Repos\AzureADB2CSamples\AADB2C.API\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Data\Source\Repos\AzureADB2CSamples\AADB2C.API\bin\Debug\netcoreapp2.2\AADB2C.API.deps.json
+C:\Data\Source\Repos\AzureADB2CSamples\AADB2C.API\bin\Debug\netcoreapp2.2\AADB2C.API.runtimeconfig.json
+C:\Data\Source\Repos\AzureADB2CSamples\AADB2C.API\bin\Debug\netcoreapp2.2\AADB2C.API.runtimeconfig.dev.json
+C:\Data\Source\Repos\AzureADB2CSamples\AADB2C.API\bin\Debug\netcoreapp2.2\AADB2C.API.dll
+C:\Data\Source\Repos\AzureADB2CSamples\AADB2C.API\bin\Debug\netcoreapp2.2\AADB2C.API.pdb
+C:\Data\Source\Repos\AzureADB2CSamples\AADB2C.API\obj\Debug\netcoreapp2.2\AADB2C.API.csprojAssemblyReference.cache
+C:\Data\Source\Repos\AzureADB2CSamples\AADB2C.API\obj\Debug\netcoreapp2.2\AADB2C.API.AssemblyInfoInputs.cache
+C:\Data\Source\Repos\AzureADB2CSamples\AADB2C.API\obj\Debug\netcoreapp2.2\AADB2C.API.AssemblyInfo.cs
+C:\Data\Source\Repos\AzureADB2CSamples\AADB2C.API\obj\Debug\netcoreapp2.2\AADB2C.API.csproj.CoreCompileInputs.cache
+C:\Data\Source\Repos\AzureADB2CSamples\AADB2C.API\obj\Debug\netcoreapp2.2\AADB2C.API.RazorAssemblyInfo.cache
+C:\Data\Source\Repos\AzureADB2CSamples\AADB2C.API\obj\Debug\netcoreapp2.2\AADB2C.API.RazorAssemblyInfo.cs
+C:\Data\Source\Repos\AzureADB2CSamples\AADB2C.API\obj\Debug\netcoreapp2.2\AADB2C.API.RazorTargetAssemblyInfo.cache
+C:\Data\Source\Repos\AzureADB2CSamples\AADB2C.API\obj\Debug\netcoreapp2.2\AADB2C.API.dll
+C:\Data\Source\Repos\AzureADB2CSamples\AADB2C.API\obj\Debug\netcoreapp2.2\AADB2C.API.pdb
+C:\Data\Source\Repos\AzureADB2CSamples\AADB2C.API\obj\Debug\netcoreapp2.2\AADB2C.API.genruntimeconfig.cache

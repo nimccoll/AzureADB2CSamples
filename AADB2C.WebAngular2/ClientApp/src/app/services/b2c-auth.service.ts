@@ -23,7 +23,7 @@ export class B2cAuthService {
   b2cScopes = ["{the scope value of your API}"];
 
   // the creation of this was taken from the ref above.
-  authority = "https://{your B2C tenant name}.b2clogin.com/" + this.tenant + "/" +
+  authority = "https://{your B2C tenant name}.b2clogin.com/tfp/" + this.tenant + "/" +
     this.signUpSignInPolicy;
 
   msalConfig: Msal.Configuration = {
@@ -41,22 +41,23 @@ export class B2cAuthService {
 
   clientApplication: Msal.IPublicClientApplication = new Msal.PublicClientApplication(this.msalConfig);
 
+  currentUser: Msal.AccountInfo;
+
   constructor() { }
 
   // Trigger a login with Azure AD B2C
   async login() {
     var _this = this;
-    var currentUser: Msal.AccountInfo;
 
     try {
       const loginResponse = await _this.clientApplication.loginPopup(_this.loginRequest);
-      currentUser = loginResponse.account;
+      _this.currentUser = loginResponse.account;
     }
     catch (err) {
       console.log(err);
     }
 
-    return currentUser;
+    return _this.currentUser;
   }
 
   // Trigger a logout from Azure AD B2C
@@ -69,15 +70,16 @@ export class B2cAuthService {
   // Retrieve the currently signed in user
   getCurrentUser() {
     var _this = this;
-    var accounts: Msal.AccountInfo[];
-    var currentUser: Msal.AccountInfo;
+    if (!_this.currentUser) {
+      var accounts: Msal.AccountInfo[];
 
-    accounts = _this.clientApplication.getAllAccounts();
-    if (accounts.length > 0) {
-      currentUser = accounts[0];
+      accounts = _this.clientApplication.getAllAccounts();
+      if (accounts.length > 0) {
+        _this.currentUser = accounts[0];
+      }
     }
 
-    return currentUser;
+    return _this.currentUser;
   }
 
   // Retrieve an access token for the specified scope(s)
