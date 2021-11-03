@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8yqmXGTBs2eT7h6qa8SUbQyjF6FlfZ0er/oq36LiONXehgiXHm6E48+WAu5KojQyUKan3glUdHMf2hVvWsMgTQ==",
+  "dgSpecHash": "PIUmvWO/paIHW48j+sdYixffzHyYUdcS7FKAOcN6X0LGwZ6BrvjeN983VFpZxLGvOwsNjTKuqExVdPjKRnOR6Q==",
   "success": true,
-  "projectFilePath": "C:\\Data\\Source\\Repos\\AzureADB2CSamples\\AADB2C.API\\AADB2C.API.csproj",
+  "projectFilePath": "C:\\Data\\Source\\Repos\\GitHub\\AzureADB2CSamples\\AADB2C.API\\AADB2C.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nimccoll\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
     "C:\\Users\\nimccoll\\.nuget\\packages\\microsoft.aspnetcore\\2.2.0\\microsoft.aspnetcore.2.2.0.nupkg.sha512",

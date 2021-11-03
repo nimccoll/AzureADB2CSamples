@@ -11,6 +11,7 @@
 using AADB2C.Web.Models;
 using AADB2C.Web.Services;
 using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.AzureADB2C.UI;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http.Extensions;
 using Microsoft.AspNetCore.Mvc;
@@ -132,6 +133,7 @@ namespace AADB2C.Web.Controllers
             return View();
         }
 
+        [Authorize]
         public IActionResult Privacy()
         {
             return View();
@@ -158,7 +160,8 @@ namespace AADB2C.Web.Controllers
 
             // Build the identifier for the token issuing authority. Values are retrieved from configuration.
             // Ex. https://login.microsoftonline.com/tfp/{your B2C tenant}.onmicrosoft.com/{your B2C sign-up signin-in policy name}/v2.0
-            string authority = $"{_configuration.GetValue<string>("AzureADB2C:Instance")}/{_configuration.GetValue<string>("AzureADB2C:Domain")}/{_configuration.GetValue<string>("AzureADB2C:SignUpSignInPolicyId")}/v2.0";
+            //string authority = $"{_configuration.GetValue<string>("AzureADB2C:Instance")}/{_configuration.GetValue<string>("AzureADB2C:Domain")}/{_configuration.GetValue<string>("AzureADB2C:SignUpSignInPolicyId")}/v2.0";
+            string authority = $"{_configuration.GetValue<string>("AzureADB2C:Instance")}tfp/{_configuration.GetValue<string>("AzureADB2C:Domain")}/{_configuration.GetValue<string>("AzureADB2C:SignUpSignInPolicyId")}";
 
             // Build the redirect Uri
             // Ex. https://localhost:44340/signin-oidc
@@ -187,6 +190,16 @@ namespace AADB2C.Web.Controllers
             }
 
             return accessToken;
+        }
+
+        public IActionResult ResetPassword([FromRoute] string scheme)
+        {
+            scheme = scheme ?? AzureADB2CDefaults.AuthenticationScheme;
+
+            var redirectUrl = Url.Content("~/");
+            var properties = new AuthenticationProperties { RedirectUri = redirectUrl };
+            properties.Items[AzureADB2CDefaults.PolicyKey] = _configuration.GetValue<string>("AzureADB2C:ResetPasswordPolicyId");
+            return Challenge(properties, scheme);
         }
     }
 }

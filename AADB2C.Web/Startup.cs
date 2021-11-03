@@ -72,6 +72,16 @@ namespace AADB2C.Web
                     OnRedirectToIdentityProvider = async ctxt =>
                     {
                         ctxt.ProtocolMessage.Scope += $" offline_access {Configuration.GetValue<string>("AzureADB2C:ApiScopes")}";
+
+                        // If a different B2C policy is being executed, we must update the Authority and IssuerAddress
+                        if (ctxt.Properties.Items.ContainsKey("Policy"))
+                        {
+                            string policy = ctxt.Properties.Items["Policy"].ToLower();
+                            string defaultPolicy = Configuration.GetValue<string>("AzureADB2C:SignUpSignInPolicyId").ToLower();
+                            ctxt.Options.Authority = ctxt.Options.Authority.ToLower().Replace(defaultPolicy, policy);
+                            ctxt.ProtocolMessage.IssuerAddress = ctxt.ProtocolMessage.IssuerAddress.ToLower().Replace(defaultPolicy, policy);
+                        }
+
                         await Task.Yield();
                     },
                     // Retrieve and cache access tokens for the WebAPI to be used later by exchanging the
@@ -88,7 +98,13 @@ namespace AADB2C.Web
                         // Build the identifier for the token issuing authority. Values are retrieved from
                         // configuration.
                         // Ex. https://login.microsoftonline.com/tfp/{your B2C tenant}.onmicrosoft.com/{your B2C sign-up signin-in policy name}/v2.0
-                        string authority = $"{Configuration.GetValue<string>("AzureADB2C:Instance")}/{Configuration.GetValue<string>("AzureADB2C:Domain")}/{Configuration.GetValue<string>("AzureADB2C:SignUpSignInPolicyId")}/v2.0";
+                        //string authority = $"{Configuration.GetValue<string>("AzureADB2C:Instance")}/{Configuration.GetValue<string>("AzureADB2C:Domain")}/{Configuration.GetValue<string>("AzureADB2C:SignUpSignInPolicyId")}/v2.0";
+                        string policy = Configuration.GetValue<string>("AzureADB2C:SignUpSignInPolicyId");
+                        if (ctxt.Properties.Items.ContainsKey("Policy"))
+                        {
+                            policy = ctxt.Properties.Items["Policy"];
+                        }
+                        string authority = $"{Configuration.GetValue<string>("AzureADB2C:Instance")}tfp/{Configuration.GetValue<string>("AzureADB2C:Domain")}/{policy}";
 
                         // Build the redirect Uri from the current HttpContext
                         // Ex. https://localhost:44340/signin-oidc
@@ -122,6 +138,41 @@ namespace AADB2C.Web
                             }
                             throw;
                         }
+                    },
+                    OnMessageReceived = context =>
+                    {
+                        // If an error has been raised, then remember the return URL for use by the OnRemoteFailure event.
+                        if (!string.IsNullOrEmpty(context.ProtocolMessage.Error) &&
+                            context.ProtocolMessage.Error.Equals("access_denied") &&
+                            context.ProtocolMessage.ErrorDescription.StartsWith("AADB2C90118"))
+                        {
+                            context.HttpContext.Items["redirect_uri"] = context.Properties.RedirectUri;
+                        }
+
+                        return Task.FromResult(0);
+                    },
+                    OnRemoteFailure = context =>
+                    {
+                        // Handle the error that is raised when a user has requested to recover a password.
+                        if (!string.IsNullOrEmpty(context.Failure.Message) &&
+                            context.Failure.Message.Contains("access_denied") &&
+                            context.Failure.Message.Contains("AADB2C90118"))
+                        {
+                            //context.Response.Redirect($"/Account/RecoverPassword?ReturnUrl={context.HttpContext.Items["redirect_uri"]}");
+                            context.Response.Redirect($"/Home/ResetPassword");
+                            context.HandleResponse();
+                        }
+
+                        // Handle any other error that is raised.
+                        if (!string.IsNullOrEmpty(context.Failure.Message) &&
+                            context.Failure.Message.Contains("access_denied") &&
+                            context.Failure.Message.Contains("AADB2C90091"))
+                        {
+                            context.Response.Redirect("/");
+                            context.HandleResponse();
+                        }
+
+                        return Task.FromResult(0);
                     }
                 };
             });
@@ -170,3 +221,4 @@ namespace AADB2C.Web
         }
     }
 }
+ 

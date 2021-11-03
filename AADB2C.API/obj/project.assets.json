@@ -9277,7 +9277,7 @@
       ]
     },
     "System.IO.Pipelines/4.5.2": {
-      "sha512": "Wrlfraisvf2RVdE4rryEsH2v6AoRQSZzfH2jwuOA9DwT0OvC2MmLAXdvPyF3/xeyvhWq9YuQMSPwHok8e5JjSA==",
+      "sha512": "NOC/SO4gSX6t0tB25xxDPqPEzkksuzW7NVFBTQGAkjXXUPQl7ZtyE83T7tUCP2huFBbPombfCKvq1Ox1aG8D9w==",
       "type": "package",
       "path": "system.io.pipelines/4.5.2",
       "files": [
@@ -12327,24 +12327,27 @@
   },
   "packageFolders": {
     "C:\\Users\\nimccoll\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Data\\Source\\Repos\\AzureADB2CSamples\\AADB2C.API\\AADB2C.API.csproj",
+      "projectUniqueName": "C:\\Data\\Source\\Repos\\GitHub\\AzureADB2CSamples\\AADB2C.API\\AADB2C.API.csproj",
       "projectName": "AADB2C.API",
-      "projectPath": "C:\\Data\\Source\\Repos\\AzureADB2CSamples\\AADB2C.API\\AADB2C.API.csproj",
+      "projectPath": "C:\\Data\\Source\\Repos\\GitHub\\AzureADB2CSamples\\AADB2C.API\\AADB2C.API.csproj",
       "packagesPath": "C:\\Users\\nimccoll\\.nuget\\packages\\",
-      "outputPath": "C:\\Data\\Source\\Repos\\AzureADB2CSamples\\AADB2C.API\\obj\\",
+      "outputPath": "C:\\Data\\Source\\Repos\\GitHub\\AzureADB2CSamples\\AADB2C.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
         "C:\\Users\\nimccoll\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -12352,7 +12355,6 @@
         "netcoreapp2.2"
       ],
       "sources": {
-        "C:\\Data\\Local NuGet Feed": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
@@ -12404,7 +12406,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

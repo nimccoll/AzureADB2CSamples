@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9iyR7AIIBFHS76KsfkDKyUJKTD9E0YB14doXh29jLBSNnDRw3EQwPziAJ/tCJQDDVllcIDOME7hYFMkkU9hTuw==",
+  "dgSpecHash": "4/CU5wfxySBBjT8KtZiQxGIUrWzlJSs0yVjiUo2Dqn9I8h322SqCQ+tfG3ZE11h9qAn+F+TAQCL3D0cMiEZIaw==",
   "success": true,
-  "projectFilePath": "C:\\Data\\Source\\Repos\\AzureADB2CSamples\\AADB2C.WebJQuery\\AADB2C.WebJQuery.csproj",
+  "projectFilePath": "C:\\Data\\Source\\Repos\\GitHub\\AzureADB2CSamples\\AADB2C.WebJQuery\\AADB2C.WebJQuery.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nimccoll\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
     "C:\\Users\\nimccoll\\.nuget\\packages\\microsoft.aspnetcore\\2.2.0\\microsoft.aspnetcore.2.2.0.nupkg.sha512",
