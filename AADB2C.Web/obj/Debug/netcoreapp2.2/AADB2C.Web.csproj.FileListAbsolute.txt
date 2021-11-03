@@ -1,0 +1,69 @@
+C:\Data\Source\Workspaces\Sample Code\AzureADB2CSamples-MSAL\AADB2C.Web\bin\Debug\netcoreapp2.2\AADB2C.Web.deps.json
+C:\Data\Source\Workspaces\Sample Code\AzureADB2CSamples-MSAL\AADB2C.Web\bin\Debug\netcoreapp2.2\AADB2C.Web.runtimeconfig.json
+C:\Data\Source\Workspaces\Sample Code\AzureADB2CSamples-MSAL\AADB2C.Web\bin\Debug\netcoreapp2.2\AADB2C.Web.runtimeconfig.dev.json
+C:\Data\Source\Workspaces\Sample Code\AzureADB2CSamples-MSAL\AADB2C.Web\bin\Debug\netcoreapp2.2\AADB2C.Web.dll
+C:\Data\Source\Workspaces\Sample Code\AzureADB2CSamples-MSAL\AADB2C.Web\obj\Debug\netcoreapp2.2\AADB2C.Web.csprojAssemblyReference.cache
+C:\Data\Source\Workspaces\Sample Code\AzureADB2CSamples-MSAL\AADB2C.Web\obj\Debug\netcoreapp2.2\AADB2C.Web.csproj.CoreCompileInputs.cache
+C:\Data\Source\Workspaces\Sample Code\AzureADB2CSamples-MSAL\AADB2C.Web\obj\Debug\netcoreapp2.2\AADB2C.Web.RazorAssemblyInfo.cache
+C:\Data\Source\Workspaces\Sample Code\AzureADB2CSamples-MSAL\AADB2C.Web\obj\Debug\netcoreapp2.2\AADB2C.Web.RazorAssemblyInfo.cs
+C:\Data\Source\Workspaces\Sample Code\AzureADB2CSamples-MSAL\AADB2C.Web\obj\Debug\netcoreapp2.2\AADB2C.Web.AssemblyInfoInputs.cache
+C:\Data\Source\Workspaces\Sample Code\AzureADB2CSamples-MSAL\AADB2C.Web\obj\Debug\netcoreapp2.2\AADB2C.Web.AssemblyInfo.cs
+C:\Data\Source\Workspaces\Sample Code\AzureADB2CSamples-MSAL\AADB2C.Web\obj\Debug\netcoreapp2.2\AADB2C.Web.TagHelpers.input.cache
+C:\Data\Source\Workspaces\Sample Code\AzureADB2CSamples-MSAL\AADB2C.Web\obj\Debug\netcoreapp2.2\AADB2C.Web.TagHelpers.output.cache
+C:\Data\Source\Workspaces\Sample Code\AzureADB2CSamples-MSAL\AADB2C.Web\obj\Debug\netcoreapp2.2\AADB2C.Web.RazorCoreGenerate.cache
+C:\Data\Source\Workspaces\Sample Code\AzureADB2CSamples-MSAL\AADB2C.Web\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+C:\Data\Source\Workspaces\Sample Code\AzureADB2CSamples-MSAL\AADB2C.Web\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.g.cshtml.cs
+C:\Data\Source\Workspaces\Sample Code\AzureADB2CSamples-MSAL\AADB2C.Web\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Data\Source\Workspaces\Sample Code\AzureADB2CSamples-MSAL\AADB2C.Web\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Data\Source\Workspaces\Sample Code\AzureADB2CSamples-MSAL\AADB2C.Web\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Data\Source\Workspaces\Sample Code\AzureADB2CSamples-MSAL\AADB2C.Web\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Data\Source\Workspaces\Sample Code\AzureADB2CSamples-MSAL\AADB2C.Web\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Data\Source\Workspaces\Sample Code\AzureADB2CSamples-MSAL\AADB2C.Web\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Data\Source\Workspaces\Sample Code\AzureADB2CSamples-MSAL\AADB2C.Web\obj\Debug\netcoreapp2.2\AADB2C.Web.RazorTargetAssemblyInfo.cache
+C:\Data\Source\Workspaces\Sample Code\AzureADB2CSamples-MSAL\AADB2C.Web\obj\Debug\netcoreapp2.2\AADB2C.Web.RazorTargetAssemblyInfo.cs
+C:\Data\Source\Workspaces\Sample Code\AzureADB2CSamples-MSAL\AADB2C.Web\bin\Debug\netcoreapp2.2\AADB2C.Web.pdb
+C:\Data\Source\Workspaces\Sample Code\AzureADB2CSamples-MSAL\AADB2C.Web\bin\Debug\netcoreapp2.2\AADB2C.Web.Views.dll
+C:\Data\Source\Workspaces\Sample Code\AzureADB2CSamples-MSAL\AADB2C.Web\bin\Debug\netcoreapp2.2\AADB2C.Web.Views.pdb
+C:\Data\Source\Workspaces\Sample Code\AzureADB2CSamples-MSAL\AADB2C.Web\obj\Debug\netcoreapp2.2\AADB2C.Web.Views.pdb
+C:\Data\Source\Workspaces\Sample Code\AzureADB2CSamples-MSAL\AADB2C.Web\obj\Debug\netcoreapp2.2\AADB2C.Web.dll
+C:\Data\Source\Workspaces\Sample Code\AzureADB2CSamples-MSAL\AADB2C.Web\obj\Debug\netcoreapp2.2\AADB2C.Web.pdb
+C:\Data\Source\Workspaces\Sample Code\AzureADB2CSamples-MSAL\AADB2C.Web\obj\Debug\netcoreapp2.2\AADB2C.Web.csproj.CopyComplete
+C:\Data\Source\Workspaces\Sample Code\AzureADB2CSamples-MSAL\AADB2C.Web\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_LoginPartial.g.cshtml.cs
+C:\Data\Source\Workspaces\Sample Code\AzureADB2CSamples-MSAL\AADB2C.Web\obj\Debug\netcoreapp2.2\Razor\Views\Home\CallAPI.g.cshtml.cs
+C:\Data\Source\Repos\GitHub\AzureADB2CSamples\AADB2C.Web\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Data\Source\Repos\GitHub\AzureADB2CSamples\AADB2C.Web\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Data\Source\Repos\GitHub\AzureADB2CSamples\AADB2C.Web\bin\Debug\netcoreapp2.2\AADB2C.Web.deps.json
+C:\Data\Source\Repos\GitHub\AzureADB2CSamples\AADB2C.Web\bin\Debug\netcoreapp2.2\AADB2C.Web.runtimeconfig.json
+C:\Data\Source\Repos\GitHub\AzureADB2CSamples\AADB2C.Web\bin\Debug\netcoreapp2.2\AADB2C.Web.runtimeconfig.dev.json
+C:\Data\Source\Repos\GitHub\AzureADB2CSamples\AADB2C.Web\bin\Debug\netcoreapp2.2\AADB2C.Web.dll
+C:\Data\Source\Repos\GitHub\AzureADB2CSamples\AADB2C.Web\bin\Debug\netcoreapp2.2\AADB2C.Web.pdb
+C:\Data\Source\Repos\GitHub\AzureADB2CSamples\AADB2C.Web\bin\Debug\netcoreapp2.2\AADB2C.Web.Views.dll
+C:\Data\Source\Repos\GitHub\AzureADB2CSamples\AADB2C.Web\bin\Debug\netcoreapp2.2\AADB2C.Web.Views.pdb
+C:\Data\Source\Repos\GitHub\AzureADB2CSamples\AADB2C.Web\obj\Debug\netcoreapp2.2\AADB2C.Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Data\Source\Repos\GitHub\AzureADB2CSamples\AADB2C.Web\obj\Debug\netcoreapp2.2\AADB2C.Web.AssemblyInfoInputs.cache
+C:\Data\Source\Repos\GitHub\AzureADB2CSamples\AADB2C.Web\obj\Debug\netcoreapp2.2\AADB2C.Web.AssemblyInfo.cs
+C:\Data\Source\Repos\GitHub\AzureADB2CSamples\AADB2C.Web\obj\Debug\netcoreapp2.2\AADB2C.Web.csproj.CoreCompileInputs.cache
+C:\Data\Source\Repos\GitHub\AzureADB2CSamples\AADB2C.Web\obj\Debug\netcoreapp2.2\AADB2C.Web.RazorAssemblyInfo.cache
+C:\Data\Source\Repos\GitHub\AzureADB2CSamples\AADB2C.Web\obj\Debug\netcoreapp2.2\AADB2C.Web.RazorAssemblyInfo.cs
+C:\Data\Source\Repos\GitHub\AzureADB2CSamples\AADB2C.Web\obj\Debug\netcoreapp2.2\AADB2C.Web.TagHelpers.input.cache
+C:\Data\Source\Repos\GitHub\AzureADB2CSamples\AADB2C.Web\obj\Debug\netcoreapp2.2\AADB2C.Web.TagHelpers.output.cache
+C:\Data\Source\Repos\GitHub\AzureADB2CSamples\AADB2C.Web\obj\Debug\netcoreapp2.2\AADB2C.Web.RazorCoreGenerate.cache
+C:\Data\Source\Repos\GitHub\AzureADB2CSamples\AADB2C.Web\obj\Debug\netcoreapp2.2\Razor\Views\Account\SignOut.cshtml.g.cs
+C:\Data\Source\Repos\GitHub\AzureADB2CSamples\AADB2C.Web\obj\Debug\netcoreapp2.2\Razor\Views\Home\CallAPI.cshtml.g.cs
+C:\Data\Source\Repos\GitHub\AzureADB2CSamples\AADB2C.Web\obj\Debug\netcoreapp2.2\Razor\Views\Home\CallFunction.cshtml.g.cs
+C:\Data\Source\Repos\GitHub\AzureADB2CSamples\AADB2C.Web\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.cshtml.g.cs
+C:\Data\Source\Repos\GitHub\AzureADB2CSamples\AADB2C.Web\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Data\Source\Repos\GitHub\AzureADB2CSamples\AADB2C.Web\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Data\Source\Repos\GitHub\AzureADB2CSamples\AADB2C.Web\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+C:\Data\Source\Repos\GitHub\AzureADB2CSamples\AADB2C.Web\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Data\Source\Repos\GitHub\AzureADB2CSamples\AADB2C.Web\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+C:\Data\Source\Repos\GitHub\AzureADB2CSamples\AADB2C.Web\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Data\Source\Repos\GitHub\AzureADB2CSamples\AADB2C.Web\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Data\Source\Repos\GitHub\AzureADB2CSamples\AADB2C.Web\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Data\Source\Repos\GitHub\AzureADB2CSamples\AADB2C.Web\obj\Debug\netcoreapp2.2\AADB2C.Web.RazorTargetAssemblyInfo.cache
+C:\Data\Source\Repos\GitHub\AzureADB2CSamples\AADB2C.Web\obj\Debug\netcoreapp2.2\AADB2C.Web.RazorTargetAssemblyInfo.cs
+C:\Data\Source\Repos\GitHub\AzureADB2CSamples\AADB2C.Web\obj\Debug\netcoreapp2.2\AADB2C.Web.Views.pdb
+C:\Data\Source\Repos\GitHub\AzureADB2CSamples\AADB2C.Web\obj\Debug\netcoreapp2.2\AADB2C.Web.dll
+C:\Data\Source\Repos\GitHub\AzureADB2CSamples\AADB2C.Web\obj\Debug\netcoreapp2.2\AADB2C.Web.pdb
+C:\Data\Source\Repos\GitHub\AzureADB2CSamples\AADB2C.Web\obj\Debug\netcoreapp2.2\AADB2C.Web.genruntimeconfig.cache
+C:\Data\Source\Repos\GitHub\AzureADB2CSamples\AADB2C.Web\obj\Debug\netcoreapp2.2\AADB2C.Web.csproj.CopyComplete

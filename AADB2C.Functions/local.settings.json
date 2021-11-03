@@ -1,0 +1,11 @@
+{
+    "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "Audience": "{The Application ID URI of your Function's Azure AD B2C application registration}",
+    "ClientId": "{The Client ID of your Function's Azure AD B2C application registration}",
+    "TenantId": "{Your Azure AD B2C Tenant ID (GUID)}",
+    "Authority": "https://{Your Azure AD B2C tenant name}.b2clogin.com/{Your Azure AD B2C tenant name}.onmicrosoft.com/{Your Azure AD B2C policy name}/v2.0"
+  }
+}

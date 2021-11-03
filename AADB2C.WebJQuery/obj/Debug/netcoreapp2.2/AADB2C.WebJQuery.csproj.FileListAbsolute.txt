@@ -1,0 +1,63 @@
+C:\Data\Source\Workspaces\Sample Code\AzureADB2CSamples-MSAL\AADB2C.WebJQuery\bin\Debug\netcoreapp2.2\AADB2C.WebJQuery.deps.json
+C:\Data\Source\Workspaces\Sample Code\AzureADB2CSamples-MSAL\AADB2C.WebJQuery\bin\Debug\netcoreapp2.2\AADB2C.WebJQuery.runtimeconfig.json
+C:\Data\Source\Workspaces\Sample Code\AzureADB2CSamples-MSAL\AADB2C.WebJQuery\bin\Debug\netcoreapp2.2\AADB2C.WebJQuery.runtimeconfig.dev.json
+C:\Data\Source\Workspaces\Sample Code\AzureADB2CSamples-MSAL\AADB2C.WebJQuery\bin\Debug\netcoreapp2.2\AADB2C.WebJQuery.dll
+C:\Data\Source\Workspaces\Sample Code\AzureADB2CSamples-MSAL\AADB2C.WebJQuery\bin\Debug\netcoreapp2.2\AADB2C.WebJQuery.pdb
+C:\Data\Source\Workspaces\Sample Code\AzureADB2CSamples-MSAL\AADB2C.WebJQuery\bin\Debug\netcoreapp2.2\AADB2C.WebJQuery.Views.dll
+C:\Data\Source\Workspaces\Sample Code\AzureADB2CSamples-MSAL\AADB2C.WebJQuery\bin\Debug\netcoreapp2.2\AADB2C.WebJQuery.Views.pdb
+C:\Data\Source\Workspaces\Sample Code\AzureADB2CSamples-MSAL\AADB2C.WebJQuery\obj\Debug\netcoreapp2.2\AADB2C.WebJQuery.csprojAssemblyReference.cache
+C:\Data\Source\Workspaces\Sample Code\AzureADB2CSamples-MSAL\AADB2C.WebJQuery\obj\Debug\netcoreapp2.2\AADB2C.WebJQuery.csproj.CoreCompileInputs.cache
+C:\Data\Source\Workspaces\Sample Code\AzureADB2CSamples-MSAL\AADB2C.WebJQuery\obj\Debug\netcoreapp2.2\AADB2C.WebJQuery.RazorAssemblyInfo.cache
+C:\Data\Source\Workspaces\Sample Code\AzureADB2CSamples-MSAL\AADB2C.WebJQuery\obj\Debug\netcoreapp2.2\AADB2C.WebJQuery.RazorAssemblyInfo.cs
+C:\Data\Source\Workspaces\Sample Code\AzureADB2CSamples-MSAL\AADB2C.WebJQuery\obj\Debug\netcoreapp2.2\AADB2C.WebJQuery.AssemblyInfoInputs.cache
+C:\Data\Source\Workspaces\Sample Code\AzureADB2CSamples-MSAL\AADB2C.WebJQuery\obj\Debug\netcoreapp2.2\AADB2C.WebJQuery.AssemblyInfo.cs
+C:\Data\Source\Workspaces\Sample Code\AzureADB2CSamples-MSAL\AADB2C.WebJQuery\obj\Debug\netcoreapp2.2\AADB2C.WebJQuery.TagHelpers.input.cache
+C:\Data\Source\Workspaces\Sample Code\AzureADB2CSamples-MSAL\AADB2C.WebJQuery\obj\Debug\netcoreapp2.2\AADB2C.WebJQuery.TagHelpers.output.cache
+C:\Data\Source\Workspaces\Sample Code\AzureADB2CSamples-MSAL\AADB2C.WebJQuery\obj\Debug\netcoreapp2.2\AADB2C.WebJQuery.RazorCoreGenerate.cache
+C:\Data\Source\Workspaces\Sample Code\AzureADB2CSamples-MSAL\AADB2C.WebJQuery\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+C:\Data\Source\Workspaces\Sample Code\AzureADB2CSamples-MSAL\AADB2C.WebJQuery\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Data\Source\Workspaces\Sample Code\AzureADB2CSamples-MSAL\AADB2C.WebJQuery\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Data\Source\Workspaces\Sample Code\AzureADB2CSamples-MSAL\AADB2C.WebJQuery\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Data\Source\Workspaces\Sample Code\AzureADB2CSamples-MSAL\AADB2C.WebJQuery\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_LoginPartial.g.cshtml.cs
+C:\Data\Source\Workspaces\Sample Code\AzureADB2CSamples-MSAL\AADB2C.WebJQuery\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Data\Source\Workspaces\Sample Code\AzureADB2CSamples-MSAL\AADB2C.WebJQuery\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Data\Source\Workspaces\Sample Code\AzureADB2CSamples-MSAL\AADB2C.WebJQuery\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Data\Source\Workspaces\Sample Code\AzureADB2CSamples-MSAL\AADB2C.WebJQuery\obj\Debug\netcoreapp2.2\AADB2C.WebJQuery.RazorTargetAssemblyInfo.cache
+C:\Data\Source\Workspaces\Sample Code\AzureADB2CSamples-MSAL\AADB2C.WebJQuery\obj\Debug\netcoreapp2.2\AADB2C.WebJQuery.RazorTargetAssemblyInfo.cs
+C:\Data\Source\Workspaces\Sample Code\AzureADB2CSamples-MSAL\AADB2C.WebJQuery\obj\Debug\netcoreapp2.2\AADB2C.WebJQuery.Views.pdb
+C:\Data\Source\Workspaces\Sample Code\AzureADB2CSamples-MSAL\AADB2C.WebJQuery\obj\Debug\netcoreapp2.2\AADB2C.WebJQuery.dll
+C:\Data\Source\Workspaces\Sample Code\AzureADB2CSamples-MSAL\AADB2C.WebJQuery\obj\Debug\netcoreapp2.2\AADB2C.WebJQuery.pdb
+C:\Data\Source\Workspaces\Sample Code\AzureADB2CSamples-MSAL\AADB2C.WebJQuery\obj\Debug\netcoreapp2.2\AADB2C.WebJQuery.csproj.CopyComplete
+C:\Data\Source\Repos\GitHub\AzureADB2CSamples\AADB2C.WebJQuery\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Data\Source\Repos\GitHub\AzureADB2CSamples\AADB2C.WebJQuery\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Data\Source\Repos\GitHub\AzureADB2CSamples\AADB2C.WebJQuery\bin\Debug\netcoreapp2.2\AADB2C.WebJQuery.deps.json
+C:\Data\Source\Repos\GitHub\AzureADB2CSamples\AADB2C.WebJQuery\bin\Debug\netcoreapp2.2\AADB2C.WebJQuery.runtimeconfig.json
+C:\Data\Source\Repos\GitHub\AzureADB2CSamples\AADB2C.WebJQuery\bin\Debug\netcoreapp2.2\AADB2C.WebJQuery.runtimeconfig.dev.json
+C:\Data\Source\Repos\GitHub\AzureADB2CSamples\AADB2C.WebJQuery\bin\Debug\netcoreapp2.2\AADB2C.WebJQuery.dll
+C:\Data\Source\Repos\GitHub\AzureADB2CSamples\AADB2C.WebJQuery\bin\Debug\netcoreapp2.2\AADB2C.WebJQuery.pdb
+C:\Data\Source\Repos\GitHub\AzureADB2CSamples\AADB2C.WebJQuery\bin\Debug\netcoreapp2.2\AADB2C.WebJQuery.Views.dll
+C:\Data\Source\Repos\GitHub\AzureADB2CSamples\AADB2C.WebJQuery\bin\Debug\netcoreapp2.2\AADB2C.WebJQuery.Views.pdb
+C:\Data\Source\Repos\GitHub\AzureADB2CSamples\AADB2C.WebJQuery\obj\Debug\netcoreapp2.2\AADB2C.WebJQuery.GeneratedMSBuildEditorConfig.editorconfig
+C:\Data\Source\Repos\GitHub\AzureADB2CSamples\AADB2C.WebJQuery\obj\Debug\netcoreapp2.2\AADB2C.WebJQuery.AssemblyInfoInputs.cache
+C:\Data\Source\Repos\GitHub\AzureADB2CSamples\AADB2C.WebJQuery\obj\Debug\netcoreapp2.2\AADB2C.WebJQuery.AssemblyInfo.cs
+C:\Data\Source\Repos\GitHub\AzureADB2CSamples\AADB2C.WebJQuery\obj\Debug\netcoreapp2.2\AADB2C.WebJQuery.csproj.CoreCompileInputs.cache
+C:\Data\Source\Repos\GitHub\AzureADB2CSamples\AADB2C.WebJQuery\obj\Debug\netcoreapp2.2\AADB2C.WebJQuery.RazorAssemblyInfo.cache
+C:\Data\Source\Repos\GitHub\AzureADB2CSamples\AADB2C.WebJQuery\obj\Debug\netcoreapp2.2\AADB2C.WebJQuery.RazorAssemblyInfo.cs
+C:\Data\Source\Repos\GitHub\AzureADB2CSamples\AADB2C.WebJQuery\obj\Debug\netcoreapp2.2\AADB2C.WebJQuery.TagHelpers.input.cache
+C:\Data\Source\Repos\GitHub\AzureADB2CSamples\AADB2C.WebJQuery\obj\Debug\netcoreapp2.2\AADB2C.WebJQuery.TagHelpers.output.cache
+C:\Data\Source\Repos\GitHub\AzureADB2CSamples\AADB2C.WebJQuery\obj\Debug\netcoreapp2.2\AADB2C.WebJQuery.RazorCoreGenerate.cache
+C:\Data\Source\Repos\GitHub\AzureADB2CSamples\AADB2C.WebJQuery\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.cshtml.g.cs
+C:\Data\Source\Repos\GitHub\AzureADB2CSamples\AADB2C.WebJQuery\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Data\Source\Repos\GitHub\AzureADB2CSamples\AADB2C.WebJQuery\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+C:\Data\Source\Repos\GitHub\AzureADB2CSamples\AADB2C.WebJQuery\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Data\Source\Repos\GitHub\AzureADB2CSamples\AADB2C.WebJQuery\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+C:\Data\Source\Repos\GitHub\AzureADB2CSamples\AADB2C.WebJQuery\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Data\Source\Repos\GitHub\AzureADB2CSamples\AADB2C.WebJQuery\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Data\Source\Repos\GitHub\AzureADB2CSamples\AADB2C.WebJQuery\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Data\Source\Repos\GitHub\AzureADB2CSamples\AADB2C.WebJQuery\obj\Debug\netcoreapp2.2\AADB2C.WebJQuery.RazorTargetAssemblyInfo.cache
+C:\Data\Source\Repos\GitHub\AzureADB2CSamples\AADB2C.WebJQuery\obj\Debug\netcoreapp2.2\AADB2C.WebJQuery.RazorTargetAssemblyInfo.cs
+C:\Data\Source\Repos\GitHub\AzureADB2CSamples\AADB2C.WebJQuery\obj\Debug\netcoreapp2.2\AADB2C.WebJQuery.Views.pdb
+C:\Data\Source\Repos\GitHub\AzureADB2CSamples\AADB2C.WebJQuery\obj\Debug\netcoreapp2.2\AADB2C.WebJQuery.dll
+C:\Data\Source\Repos\GitHub\AzureADB2CSamples\AADB2C.WebJQuery\obj\Debug\netcoreapp2.2\AADB2C.WebJQuery.pdb
+C:\Data\Source\Repos\GitHub\AzureADB2CSamples\AADB2C.WebJQuery\obj\Debug\netcoreapp2.2\AADB2C.WebJQuery.genruntimeconfig.cache
+C:\Data\Source\Repos\GitHub\AzureADB2CSamples\AADB2C.WebJQuery\obj\Debug\netcoreapp2.2\AADB2C.WebJQuery.csproj.CopyComplete
